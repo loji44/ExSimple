@@ -1,4 +1,6 @@
-## ExSimple——一款极简的Jekyll博客主题
+## ExSimple —— 一款极简的Jekyll博客主题
+
+![Jekyll](https://jekyllrb.com/img/logo-2x.png)
 
 ExSimple 是一款 [Jekyll](http://jekyllcn.com) 博客主题，它极度简洁、高效，没有任何花哨的东西，让你专注博客文章内容的输出。博客主题的效果可以参考个人博客：[https://loji44.github.io](https://loji44.github.io)。
 
