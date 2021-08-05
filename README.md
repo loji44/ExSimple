@@ -45,3 +45,4 @@ jekyll-archives:
     tag: '/tags/:name.html'
 ```
 
+没有更多东西了，上面都有说明。
