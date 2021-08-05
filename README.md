@@ -13,8 +13,12 @@ ExSimple 是一款 [Jekyll](http://jekyllcn.com) 博客主题，它极度简洁�
 
 ### 如何使用ExSimple主题？
 
-把博客主题源码仓库clone下来就行：
+把博客主题源码仓库clone下来：
 
 ```bash
 $ git clone https://github.com/loji44/ExSimple.git your_blog
 ```
+
+然后在`_post`文件夹下面写博客文章即可，都是遵循Jekyll的目录规范。
+
+
