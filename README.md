@@ -1,4 +1,4 @@
-ExSimple 是一款 <a "http://jekyllcn.com" target="_blank">Jekyll</a> 博客主题，它极度简洁、高效，没有任何花哨的东西，让你专注博客文章内容的输出。博客主题的效果可以参考个人博客：<a "https://loji44.github.io" target="_blank">https://loji44.github.io</a>。
+ExSimple 是一款 [Jekyll](http://jekyllcn.com) 博客主题，它极度简洁、高效，没有任何花哨的东西，让你专注博客文章内容的输出。博客主题的效果可以参考个人博客：<a "https://loji44.github.io" target="_blank">https://loji44.github.io</a>。
 
 **特别说明：**
 
