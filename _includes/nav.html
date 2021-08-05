@@ -1,0 +1,9 @@
+<!-- 全局顶部导航栏 -->
+<div class="header">
+  <span class="title"><a href="/">{{ site.title }}</a></span>
+  {% for nav in site.nav %}
+    {% assign nav_name = nav | split: '=' | first %}
+    {% assign nav_url = nav | split: '=' | last %}
+    &#47;&nbsp;<a class="extra" href="{{ nav_url }}">{{ nav_name }}</a>
+  {% endfor %}
+</div>

@@ -1,0 +1,23 @@
+<!-- 标签页面：标签分类并显示每个标签下面所拥有的文章总数 -->
+<!DOCTYPE html>
+<html lang="en">
+  {% include head.html %}
+  <body>
+    <div id="container">
+      {% include nav.html %}
+      <div class="site">
+        <div class="tags_cloud">
+          {% for tag in site.tags %}
+            <!-- '/'、空格转换成 '-' -->
+            {% assign tag_url = tag | first | downcase | replace: "/", "-" | replace: " ", "-" %}
+            <a href="/tags/{{ tag_url }}.html">
+              {{ tag | first }}<small>&nbsp;[{{ tag | last | size }}]</small>
+            </a>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+  </body>
+
+  {% include footer.html %}
+</html>
