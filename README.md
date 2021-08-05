@@ -21,4 +21,27 @@ $ git clone https://github.com/loji44/ExSimple.git your_blog
 
 然后在`_post`文件夹下面写博客文章即可，都是遵循Jekyll的目录规范。
 
+### `_config.yml`配置文件说明
+
+```bash
+title: Blog · Loji44
+url: "https://loji44.github.io"
+baseurl: ""
+
+# 全局顶部导航栏配置。格式："名称=跳转链接"，名称和跳转链接之间用"="分隔。例如 "About=/about.html"
+nav:
+  - About=/about.html
+  - TAGS=/tags.html
+  - RSS=/feed.xml
+
+# 不要动这个配置：根据tag生成页面
+plugins:
+  - jekyll-archives
+# 不要动这个配置：根据tag生成页面
+jekyll-archives:
+  enabled: ['tags']
+  layout: tag_post_list
+  permalinks:
+    tag: '/tags/:name.html'
+```
 
