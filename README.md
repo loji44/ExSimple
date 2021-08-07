@@ -13,8 +13,36 @@ ExSimple 是一款 [Jekyll](http://jekyllcn.com) 博客主题，它极度简洁�
 
 ### 如何使用ExSimple主题？
 
-把博客主题源码仓库clone下来就行：
+把博客主题源码仓库clone下来：
 
 ```bash
 $ git clone https://github.com/loji44/ExSimple.git your_blog
 ```
+
+然后在`_post`文件夹下面写博客文章即可，都是遵循Jekyll的目录规范。
+
+### `_config.yml`配置文件说明
+
+```bash
+title: Blog · Loji44
+url: "https://loji44.github.io"
+baseurl: ""
+
+# 全局顶部导航栏配置。格式："名称=跳转链接"，名称和跳转链接之间用"="分隔。例如 "About=/about.html"
+nav:
+  - About=/about.html
+  - TAGS=/tags.html
+  - RSS=/feed.xml
+
+# 不要动这个配置：根据tag生成页面
+plugins:
+  - jekyll-archives
+# 不要动这个配置：根据tag生成页面
+jekyll-archives:
+  enabled: ['tags']
+  layout: tag_post_list
+  permalinks:
+    tag: '/tags/:name.html'
+```
+
+没有更多东西了，上面都有说明。
