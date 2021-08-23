@@ -33,6 +33,7 @@ nav:
   - About=/about.html
   - TAGS=/tags.html
   - RSS=/feed.xml
+  - 🔍SEARCH=/search.html
 
 # 不要动这个配置：根据tag生成页面
 plugins:
